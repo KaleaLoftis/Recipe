@@ -62,7 +62,6 @@ a {
 }
 
 nav {
-    background-color: brown;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
@@ -110,11 +109,16 @@ label[for="dropdown"] {
     padding-bottom: 15px;
     padding-left: 55px;
 }
+#menu {
+    position: relative;
+    top:10px; 
+}
+#avatar {
+    position: relative;
+    top:10px;
+}
 /* End of Nav*/
 
-#mainId {
-    display:none;
-}
 #menu {
     grid-row: 1/2;
 }
@@ -170,7 +174,46 @@ aside div{
     grid-template-columns: none;
     grid-template-rows: repeat(4, 1fr);
 }
+footer {
+    text-align: center;
+    height: 530px;
+}
+footer ul {
+    padding: 0px;
+}
+footer li {
+    display: inline-block;
+    list-style-type: none;
+}
 
+footer figure{
+    color:#Eb5428;
+    width: 80px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+footer figure:hover {
+    text-decoration: underline;
+}
+
+footer figcaption {
+    position: relative;
+    top: 60px;
+}
+
+footer img {
+    width: 70%;
+
+}
+#copyright p {
+    position: relative;
+    top: 370px;
+}
 .hide{
     display: none;
 }
