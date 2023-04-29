@@ -224,6 +224,10 @@ footer img {
 #copyright p {
     position: relative;
     top: 370px;
+    
+}
+
+#copyright b {
 }
 .hide{
     display: none;
